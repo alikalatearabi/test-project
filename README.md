@@ -1,4 +1,4 @@
-this is just a test project for interview. <br />
+this is just a test project for interview.  
 to run the project via docker file, first:
 docker build -t [name of project]
 then 
