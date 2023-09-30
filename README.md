@@ -1,6 +1,6 @@
 this is just a test project for interview.  
 to run the project via docker file, first:    
-docker build -t [name of project] .
+docker build -t [name of project] .  
 then   
 docker run  -p 5173:5173 [name of the project]  
   
