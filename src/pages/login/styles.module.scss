@@ -1,0 +1,20 @@
+@media (max-width: 970px) {
+  .md_hidden{
+    display: none !important;
+  }
+}
+
+.inputNumber{
+  div {
+    height: 100% !important;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  input{
+    height: 100% !important;
+
+  }
+}

@@ -1,0 +1,42 @@
+.name_section_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 90%;
+  margin: 50px auto;
+  & p{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter, 'serif';
+  }
+  & .role_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0060FE;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: Inter, serif;
+    cursor: pointer;
+    & span{
+      font-weight: 400;
+      letter-spacing: 2px;
+      font-size: 15px;
+    }
+    & svg{
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .name_section_wrapper{
+    & p{
+      font-size: 35px !important;
+    }
+  }
+}
